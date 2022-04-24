@@ -1,0 +1,124 @@
+body{
+    background-color: #f5f8fb;
+    margin: 2em;
+}
+
+.project-disp {
+    margin: 2em 0;
+}
+
+.input-custom {
+    margin: 12px 0;
+}
+
+.card-text{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.font-card-heading {
+    font-family: 'Ubuntu Condensed',
+    sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #262d3d;
+}
+
+.font-card-tag {
+    font-family: 'Source Sans Pro',
+        sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    background-color: #99e3fa;
+    color: #000;
+    margin: 0 1px;
+}
+
+.font-card-desc {
+    font-family: 'Source Sans Pro',
+    sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #455065;
+    text-align: center;
+    padding: 25px;
+}
+
+.tag-section {
+    margin-top: 2% 0;
+    height: 10%;
+}
+
+.card-size {
+    width: 28em;
+    height: 26em;
+}
+
+.btn-custom {
+    background-color: #204fce;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 7px 30px;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-custom {
+        font-size: 10px;
+        padding: 7px 15px;
+    }
+    .card-size {
+        height: fit-content;
+    }
+
+    .font-card-desc {
+        padding: 10px 0 25px 0;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    body {
+        margin: 1em;
+    }
+    .btn-custom {
+        font-size: 10px;
+        padding: 3px 15px;
+    }
+
+
+.font-card-heading {
+    font-size: 100%;
+}
+
+    .card-size {
+        height: 100%;
+        margin: 0;
+    }
+
+    .tag-section {
+        margin-top: 0;
+        margin-bottom: 5px;
+        height: 30%;
+    }
+
+
+    .font-card-tag {
+        font-size: 8px;
+        margin: 0 0.2px;
+    }
+
+    .font-card-desc {
+        justify-content: center;
+        text-align: center;
+        display: inline-block;
+        font-size: smaller;
+        padding: 5%;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+}
